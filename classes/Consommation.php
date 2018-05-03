@@ -8,5 +8,5 @@
 
 interface Consommation
 {
-
+    public function polluer();
 }

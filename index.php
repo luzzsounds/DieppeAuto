@@ -1,7 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Dell
- * Date: 03/05/2018
- * Time: 09:50
- */
+date_default_timezone_set("Europe/Paris");
+require_once "./functions/classAutoLoader.php";
+spl_autoload_register('classAutoLoader');
+
+$voiture = new Berline("Citroen","Saxo");
+
+var_dump($voiture);
